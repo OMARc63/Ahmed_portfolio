@@ -368,9 +368,13 @@ footer {
 .footer_iconTop a i {
   font-size: 2.4rem;
   color: var(--second-bg-color);
+  transition: 0.3s ease;
 }
 .footer_iconTop a:hover {
   box-shadow: 0 0 1rem var(--main-text);
+}
+.footer_iconTop a:hover i {
+  color: var(--text-color);
 }
 
 /* ------------- BREAKPOINTS --------------------- */
@@ -403,9 +407,6 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  html {
-    font-size: 55%;
-  }
   #menu_icon {
     display: block;
   }
