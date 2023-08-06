@@ -23,7 +23,6 @@
 
 html {
   font-size: 62.5%;
-  /* overflow: hidden; */
 }
 
 body {
@@ -32,6 +31,7 @@ body {
 }
 
 section {
+  overflow: hidden;
   min-height: 100vh;
   padding: 10rem 9% 3rem;
 }
@@ -332,9 +332,15 @@ header nav a.active {
   border-radius: 0.8rem;
   margin: 0.7rem 0;
   background-color: var(--second-bg-color);
+  transition: all 0.3s ease;
+  outline: 1px solid transparent;
 }
 .contact form .input_box input {
   width: 49%;
+}
+.contact form .input_box input:focus,
+.contact form textarea:focus {
+  outline: 1px solid var(--main-text);
 }
 .contact form textarea {
   resize: none;
