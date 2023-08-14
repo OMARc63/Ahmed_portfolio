@@ -33,7 +33,7 @@ body {
 section {
   overflow: hidden;
   min-height: 100vh;
-  padding: 10rem 9% 3rem;
+  padding: 10rem 9%;
 }
 
 .btn {
@@ -395,7 +395,7 @@ footer {
     padding: 2rem 3%;
   }
   section {
-    padding: 10rem 3% 3rem;
+    padding: 10rem 3%;
   }
   .services {
     padding-bottom: 7rem;
